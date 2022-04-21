@@ -47,10 +47,10 @@ hard.addEventListener('click', speedHard)
 
 // give different speeds according to the level
 function speedEasy(){
-    starter.innerHTML = "<button onclick='moveMole(700)'>START</button>";
+    starter.innerHTML = "<button onclick='moveMole(600)'>START</button>";
 }
 function speedMedium(){
-    starter.innerHTML = "<button onclick='moveMole(350)'>START</button>";
+    starter.innerHTML = "<button onclick='moveMole(400)'>START</button>";
 }
 function speedHard(){
     starter.innerHTML = "<button onclick='moveMole(200)'>START</button>";

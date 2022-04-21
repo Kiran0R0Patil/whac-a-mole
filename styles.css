@@ -20,7 +20,7 @@ body{
     border: solid black 1px;
 }
 .mole{
-    background-color: blue;
+    background-image: url(mole.png);
 }
 
 .button{
