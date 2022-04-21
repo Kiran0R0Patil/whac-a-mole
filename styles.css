@@ -30,5 +30,12 @@ body{
     justify-content: center;
 }
 button{
-    margin: 1rem;
+    margin: 0.5rem;
+}
+@media screen and (max-width: 350px){
+    .button{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    }
 }
